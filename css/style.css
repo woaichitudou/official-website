@@ -112,14 +112,13 @@
 .center-left>h3{
     color: #333;
     font-size: 30px;
-    text-shadow: 5px 5px 5px #fb8b38;
+
 }
 .center-left>p{
     color: #333;
     font-size: 20px;
     line-height: 30px;
     margin-top:20px; 
-    text-shadow: 5px 5px 5px #fb8b38;
 }
 .center-left-box{
     width: 190px;
@@ -365,7 +364,7 @@
     height: 600px;
     background: #ccc;
     background:url(../images/feature-bg.jpg)no-repeat;
-    background-size:100%;
+    background-size:100% 600px;
     background-position: 0;
 }
 .center2-box{
@@ -399,7 +398,6 @@
     float: left;
     margin-left: 20px;
     margin-top: 5px;
-    color: #fff;
 }
 .center2-box-right ul li p{
     font-size: 14px;
@@ -408,7 +406,6 @@
     width: 480px;
     line-height: 30px;
     margin-left: 20px;
-    color: #f5f5f5;
 }
 .icon-box{
     width: 65px;
@@ -431,7 +428,7 @@
     min-width: 1080px;
     height: 500px;
     background: url(../images/ad-bg.jpg)no-repeat;
-    background-size: 100%;
+    background-size: 100% 500px;
     background-position: 0;
 }
 .center3-box{
@@ -452,10 +449,9 @@
     margin:0 auto;
     text-align: center;
     font-size: 18px;
-    color: #fff;
     margin-top: 30px;
     line-height: 40px;
-    text-shadow: 5px 5px 5px #f00;
+    color: #333;
 }
 .center3-box a{
     display: inline-block;
