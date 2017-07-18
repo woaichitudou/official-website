@@ -357,3 +357,70 @@
     95% {transform: rotate(342deg)}
     100%  {transform: rotate(360deg)}
 }
+.center2{
+    width: 100%;
+    min-width: 1080px;
+    height: 600px;
+    background: #ccc;
+    background:url(../images/feature-bg.jpg)no-repeat;
+    background-size:100%;
+    background-position: 0;
+}
+.center2-box{
+    width: 980px;
+    height: 600px;
+    margin:0 auto;
+}
+.center2-box-left{
+    width: 400px;
+    float: left;
+    height: 550px;
+    background: url(../images/iphone2.png)no-repeat;
+    background-size:90%;
+    background-position: 0;
+    margin-top: 50px;
+}
+.center2-box-right{
+    width: 580px;
+    height: 600px;
+    float: left;
+}
+.center2-box-right ul li{
+    width: 580px;
+    padding:5px;
+    float: left;
+    margin-top: 40px;
+}
+.center2-box-right ul li h3{
+    font-size: 18px;
+    color: #333;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #fff;
+}
+.center2-box-right ul li p{
+    font-size: 14px;
+    color: #333;
+    float: left;
+    width: 480px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #f5f5f5;
+}
+.icon-box{
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    line-height: 65px;
+    background: -webkit-radial-gradient(#fc8b37 5%, #fa8e3f 15%, #f9aa6f 60%); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#fc8b37 5%, #fa8e3f 15%, #f9aa6f 60%); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#fc8b37 5%, #fa8e3f 15%, #f9aa6f 60%); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#fc8b37 5%, #fa8e3f 15%, #f9aa6f 60%); /* 标准的语法（必须放在最后） */
+}
+.icon-box i{
+    font-size: 36px;
+    color: #fff;
+}
