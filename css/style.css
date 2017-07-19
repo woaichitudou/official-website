@@ -8,9 +8,10 @@
     margin: 0 auto;
     position: absolute;
     left: 50%;
-    margin-left: -440px;
+    margin-left: -490px;
     background: rgba(255, 255, 255, 0.5);
     z-index: 2;
+    overflow: hidden;
 }
 
 .nav a+a li {
@@ -868,14 +869,15 @@
     background: #646464;
     border-radius: 50%;
 }
-.erweima{
+
+.erweima {
     width: 200px;
     height: 70px;
     cursor: pointer;
     text-align: center;
     line-height: 70px;
     border: 2px solid #fb8b38;
-    margin:0 auto;
+    margin: 0 auto;
     position: relative;
     margin-top: 330px;
     border-radius: 10px;
@@ -883,42 +885,50 @@
     font-size: 16px;
     font-weight: bold;
 }
-.erweima:hover.erweima .erweima-box{
+
+.erweima:hover.erweima .erweima-box {
     height: 200px;
 }
-.erweima-box{
+
+.erweima-box {
     width: 200px;
     height: 0px;
     position: absolute;
-    top:-210px;
+    top: -210px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow:  0 0 20px #999;
-
+    box-shadow: 0 0 20px #999;
     transition: height 1s;
-    -webkit-transition: height 1s; /* Safari */
+    -webkit-transition: height 1s;
+    /* Safari */
     background: #fff;
 }
-.erweima-box img{
+
+.erweima-box img {
     width: 200px;
     height: 200px;
 }
+
 .fc-ad-co-3 {
     height: 557px;
     background: url(../images/2.jpg) center top no-repeat;
 }
+
 .fc-containner-1080 {
     width: 980px;
 }
+
 .fc-ad-co__title {
     padding-top: 64px;
 }
+
 .fc-ad-co__title .header {
     font-size: 52px;
     font-weight: 300;
     text-transform: uppercase;
     color: #333;
 }
+
 .fc-ad-co__title .sub {
     position: relative;
     margin-top: 20px;
@@ -927,10 +937,12 @@
     font-weight: 700;
     color: #333;
 }
+
 .fc-ad-co__contact {
     margin: 86px auto 0;
     width: 784px;
 }
+
 .fc-ad-co__contact li {
     float: left;
     width: 169px;
@@ -943,22 +955,161 @@
     text-align: left;
     border-radius: 3px;
 }
+
 .fc-ad-co__contact li h5 {
     margin-top: 12px;
     font-size: 20px;
     font-weight: 700;
     color: #333;
 }
+
 .fc-ad-co__contact li>div {
     margin-top: 18px;
 }
+
 .fc-ad-co__contact li>div span {
     display: block;
     margin-bottom: 5px;
     font-size: 16px;
     color: #333;
 }
+
 .fc-containner-1080 {
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
+}
+
+.tabe {
+    width: 980px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.tabe-left {
+    float: left;
+    width: 280px;
+    height: 1000px;
+    background: #e2e2e2;
+}
+
+.tabe-right {
+    float: left;
+    width: 700px;
+    height: 1000px;
+    background: #e2e2e2;
+    display: none;
+}
+
+.tabe-left-box {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.tabe-left-box-gb {
+    background: #fb8b38;
+    color: #fff!important;
+}
+
+.tabe-left-box:hover {
+    background: #fb8b38;
+    color: #fff!important;
+}
+
+.shoufenqing {
+    width: 980px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.shoufenqing-left {
+    float: left;
+    width: 280px;
+    height: 1000px;
+    background: #fff;
+}
+
+.fq-boxs {
+    width: 250px;
+    margin: 0 auto;
+    border: 1px solid #fb8b38;
+    margin-top: 50px;
+    background: #fff;
+}
+
+.fq-box-1 span {
+    display: inline-block;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #fb8b38;
+    cursor: pointer;
+}
+
+.fq-box-1 ul li {
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 14px;
+    width: 236px;
+    cursor: pointer;
+}
+
+.fq-box-1 ul li:hover {
+    background: #fb8b38;
+    color: #fff;
+}
+
+.shoufenqing-right-box {
+    display: none;
+}
+
+.fq-box-1 ul {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    /* Safari */
+}
+
+.bgc {
+    background: #fb8b38;
+    color: #fff!important;
+}
+
+.auto {
+    height: 550px!important;
+}
+
+.shoufenqing-right-box {
+    width: 700px;
+    float: left;
+    text-indent: 2rem;
+    background: #fff;
+    height: 1000px;
+}
+
+.shoufenqing-right-box h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 30px;
+}
+
+.shoufenqing-right-box p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    line-height: 30px;
+    letter-spacing: 5px
 }

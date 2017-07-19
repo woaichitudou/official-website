@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>经典案例</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font_vwj3u84mg4wh4cxr/iconfont.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+    <ul class="nav">
+        <a href="index.html"><img src="" alt=""></a>
+        <a href="index.html">
+            <li>首页</li>
+        </a>
+        <a href="collaborate.html">
+            <li>广告合作</li>
+        </a>
+        <a href="case.html">
+            <li class="active">经典案例</li>
+        </a>
+        <a href="issue.html">
+            <li>常见问题</li>
+        </a>
+        <a href="">
+            <li>关于我们</li>
+        </a>
+        <a href="">
+            <li>资讯动态</li>
+        </a>
+        <a href="javascript:;">
+            <li class="jub">投诉举报
+                <div class="jubao">
+                    <h3>如果你发现违法内容请向我们举报</h3>
+                    <p>举报电话:8888888</p>
+                    <p>举报邮箱:88888@163.com</p>
+                </div>
+            </li>
+        </a>
+    </ul>
+    <div class="tabe">
+        <div class="tabe-left">
+            <div class="tabe-left-box tabe-left-box-gb">营销效果</div>
+            <div class="tabe-left-box">品牌营销</div>
+            <div class="tabe-left-box">产品营销</div>
+        </div>
+        <div class="tabe-right">
+            1
+        </div>
+        <div class="tabe-right">
+            2
+        </div>
+        <div class="tabe-right">
+            3
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-box">
+            <ul>
+                <a href="">
+                    <li>关于我们</li>
+                </a>
+                <a href="">
+                    <li>企业风采</li>
+                </a>
+                <a href="">
+                    <li>常见问题</li>
+                </a>
+                <a href="">
+                    <li>资讯动态</li>
+                </a>
+                <a href="">
+                    <li>联系我们</li>
+                </a>
+            </ul>
+            <p>地址:武汉市武昌区和平大道赵家墩绿地蓝海A座2218（可乘坐511.514.542.530.804.607.606.717.582等公交直达，在和平大道赵家墩下车即可）</p>
+            <p></p>
+        </div>
+    </div>
+</body>
+<script>
+    $(".tabe-left-box").eq(0).addClass("tabe-left-box-gb").siblings().removeClass("tabe-left-box-gb");
+    $(".tabe-right").eq(0).show().siblings(".tabe-right").hide();
+    $(".tabe-left-box").click(function() {
+        var i = $(this).index();
+        $(this).addClass("tabe-left-box-gb").siblings().removeClass("tabe-left-box-gb");
+        $(".tabe-right").eq(i).show().siblings(".tabe-right").hide();
+    })
+</script>
+
+</html>
